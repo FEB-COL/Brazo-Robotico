@@ -1,0 +1,48 @@
+Teclas:
+
+A D -----> Mueve linealmente el brazo sobre el eje X.
+W S -----> Mueve linealmente el brazo sobre el eje Y.
+Q E -----> Mueve linealmente el brazo sobre el eje Z.
+Z X -----> Balanceo de la muñeca.
+C V -----> Cabeceo  de la muñeca.
+
+Manteniendo pulsada "Shift" y con las teclas anteriores, moverás el brazo
+con mayor precision.
+
+N M -----> Abre/cierra las pinzas.
+
+J L I K -----> Mueve el escenario.    (No aconsejo tocar el escenario) (*)
+U O     -----> Aleja/Acerca escenario. (*)
+Manteniendo pulsada "Shift" y con las teclas de mover el Escenario, podrás mover el Escenario más lentamente.
+
+
+Pulsando en tu teclado un número del 0 al 9, coges/suelta el número de Cubo correspondiente. Cuando pulses la tecla '0', tendrá efecto sobre el Cubo número 10. Mientras tengas cogido un Cubo, no lo soltará hasta que no vuelvas a pulsar el mismo número de Cubo.
+
+
+"Enter" Memorizar posición.
+"flechas" arriba y abajo para moverte por el Registro de Posicionamientos y el Menú.
+
+
+"F1" Quita/Pone la ayuda en pantalla. 
+"F2" Cargar fichero.
+"F3" Guardar fichero.
+"F4" Crear un nuevo registro de movimientos.
+"F5" Ejecutar el registro de movimientos desde el comienzo.
+"F6" Ejecutar el registro de movimientos desde el punto actual.
+"F7" Si te haces un lío con el Escenario, pulsando esta tecla restaura al valor inicial.
+"F8" Activas/Desactivas alineación del Cabeceo con el Eje X. Mientras lo tengas activado, arriba en los datos, donde pone "Cb" se pondrá de color rojo, y no te permitirá mover el cabeceo. Úsalo sólo cuando quieras poner el cubo alineado al eje X. Para desactivarlo vuelve a pulsar F8. (*)
+
+
+"Inicio" Ir al primer registro de movimientos. (*)
+"Fin" Ir al último registro de movimientos.    (*)
+"Suprimir" Borrar un registro de movimiento.   (*)
+"Insertar" Insertar un registro de movimiento. (*)
+"BackSpace" Dejar en blanco un registro de movimiento. (*)
+"Escape" para parar la ejecución de movimientos del Registro de Posiciones o salir del simulador, según el caso. No pulses dos veces 'Escape' porque te hará salir del programa una vez que el brazo robot se haya colocado en la posición deseada.
+
+
+El asterisco (*) significa que es mejor no tocar esa opción hasta que estés bien familiarizado con el manejo del simulador de brazo robot.
+
+http://sites.google.com/site/proyectosroboticos/
+
+spoulak@gmail.com

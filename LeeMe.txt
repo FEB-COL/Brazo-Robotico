@@ -1,0 +1,17 @@
+
+
+1.) El programa y las librerías están libres de virus, comprobado con el antivirus AVAST. Para tu tranquilidad sería muy buena idea que le pasaras tu propio antivirus, sobre todo si alguien te ha pasado el programa, es decir, no lo has descargado desde mi Web (abajo citada). No admitiré reclamaciones de nigún tipo por motivos semejantes.
+
+
+2.) El programa usa una resolución de 800x600. Si tu targeta gráfica o monitor es de menor resolución, puede que no se vea bien o te dé algún error relacionado con uno de estos dos temas. Mándame un e-mail y te enviaré el programa con resolución 640x480.
+
+3.) "DiezCubos.exe" maneja un sistema de fichero nuevo. Los ficheros de extensión ".XYZ" no son compatibles con versiones anteriores.
+
+
+4.) "DiezCubos.exe" es una versión -beta- no terminada. Lee el archivo "Manual.TXT" que explica con brevedad cómo programar los movimientos del Brazo Robot y los Cubos correctamente.
+
+
+
+http://sites.google.com/site/proyectosroboticos/
+
+spoulak@gmail.com

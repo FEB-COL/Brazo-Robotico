@@ -1,0 +1,87 @@
+
+                                 -----------------
+                                 - CÓMO FUNCIONA -
+                                 -----------------
+
+
+                                  Antes de comenzar
+                                  *****************
+
+Sería aconsejable haber conocido alguno de los dos programas anteriores que he publicado (BrazoRobot o Brazo&Cubo), para estar familiarizado con el teclado y el manejo del Registro de Posiciones. Aquí además se manejan objetos (cubos), que lo hace un poco más complejo.
+                                   
+
+                                   Vista Rápida
+                                   ************
+
+Puedes carga, con "F2" los tres ejemplos que he puesto como demostraciones. Se llaman "CuboCruz.XYZ", "Ojo.XYZ" y "Demo.XYZ". En esta versión los ficheros de extensión ".XYZ" no son compatibles con versiones anteriores. Los ".PLT" sí.
+
+Para coger/solar un cubo has de pulsar un número del 0 al 9 de tu teclado. La tecla '0' es el cubo número 10. 
+
+Un ejemplo:
+
+Si pulsas el número '5' de tu teclado el brazo robot irá a coger el cubo número 5 automáticamente. Una vez cogido puedes posicionarlo en cualquier parte del escenario. Vuelves a pulsar el mismo número de cubo ('5') y el brazo robot automáticamente pondrá el cubo en el suelo.
+
+Mientras el brazo robot tenga un cubo cogido, verás en el suelo del escenario una sombra en 3D (las aristas del cubo), justo por debajo del cubo real; es para ayudarte a posicionar el cubo y ver cómo quedaría antes de soltarlo. Observa la ventana azul arriba-derecha, pone: "Ang. Cubo:". Ahí marca el ángulo del cubo que hayas cogido y podrás saber su ángulo real para posicionarlo en el ángulo determinado que desees. 
+
+
+
+           ----- Programar los Movimientos del Brazo Robot y los Cubos -----
+           *****************************************************************
+
+El simulador puede registrar los movimientos del Brazo Robot junto a los cubos y además ser reversible en el tiempo. Esto significa que si te mueves por el registro hacia delante y hacia atrás, siga la misma lógica. No tiene porqué seguirla pero me he esforzado en que así fuera. Para mantener esa lógica hay que seguir una pauta. Si te sales de ella empezará a hacer cosas ilógicas.
+
+Para un correcto funcionamiento de coordinación entre el brazo robot y el cubo escogido, esta es la pauta a seguir:
+
+
+
+                                *** Brazo sin Cubo cogido ***
+
+* Cada vez que pulsas "Enter" memorizas la posición del brazo robot (al igual que en versiones anteriores.)
+
+
+                                *** Brazo con Cubo cogido ***
+
+* Pulsa en tu teclado el número de Cubo que quieres coger, del 0 al 9 (recuerda que la tecla cero '0' es el cubo número 10). Sitúalo en alguna parte del escenario y, --sin soltar el cubo--, pulsa 'Enter' para memorizar la posición. Después puedes soltar el cubo sin más; no hace falta volver a pulsar 'Enter'.
+
+Para ver lo que has grabado, pulsa 'F5' de tu teclado. Cada vez que tengas dudas, pulsa F5, así verás lo que llevas realizado hasta el momento. Trata de evitar coger cubos que luego no sean registrados. Si te sucede, Pulsa la tecla F5.
+
+
+Esta es la manera correcta de memorizar posiciones del brazo con cubo o sin cubo cogido.
+
+
+
+
+
+                         ----- Modificar lo Programado -----
+
+
+Pese a que tienes las opciones de insertar, suprimir, etc., si hay una posición -con cubo- donde quieres corregir, existe otra páuta para mantener la lógica de los cubos con el resto de los registros de movimientos.
+
+----------------
+* Para suprimir:
+----------------
+
+- Eliminar todos los registros que tenga el mismo número de cubo más una posición sin el cubo.
+
+----------------
+* Para insertar:
+----------------
+
+- Si quieres insertar algún movimiento del brazo robot con cubo cogido en alguna parte del Registro de Posiciones, inserta tres posiciones vacías como mínimo.
+
+---------------
+* Otras Teclas:
+---------------
+
+Evita usar las teclas "Inicio", "Fin", "BackSpace", etc., hasta estar bien familiarizado con el programa.
+
+
+
+
+                              ----- Otras Cuestiones -----
+
+* Este simulador no permite de momento apilar los cubos unos con otros. Tampoco evita las colisiones entre los cubos, o los cubos con el brazo robot.
+
+
+* Dale un repaso rápido al fichero "Teclas.TXT"; ahí explica más extensamente el funcionamiento de cada tecla y consejos de su uso si los hubiera.
+
